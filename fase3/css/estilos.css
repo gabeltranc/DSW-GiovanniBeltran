@@ -1,0 +1,78 @@
+.encabezado{
+    background-color: aqua;
+    padding: 30px;
+    
+}
+.navegacion{
+    background-color: rgb(105, 105, 192);
+    padding: 30px;
+   
+}
+.contenedor{
+    background-color: blueviolet;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+       
+}
+.principal{
+    background-color: blanchedalmond;
+    padding: 30px;
+    grid-column: 2/5;
+    ;
+}
+.lateral{
+    background-color: blue;
+    padding: 30px;
+    grid-column: 1/2;
+    
+}
+.pie{
+    background-color: rgba(201, 236, 185, 0.89);
+    padding: 10px;
+    
+}
+.autor{
+    background-color: rgba(90, 236, 22, 0.89);
+    padding: 10px;
+}
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu>li{
+    float: left;
+}
+.menu li a{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px  80px;
+    display: block;
+}
+.menu li a:hover{
+    background-color: chocolate;
+}
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    right: 140px;
+}
