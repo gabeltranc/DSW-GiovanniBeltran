@@ -4,7 +4,7 @@
     
 }
 .navegacion{
-    background-color: rgb(105, 105, 192);
+    background-color: rgb(251, 251, 255);
     padding: 30px;
    
 }
@@ -17,13 +17,13 @@
        
 }
 .principal{
-    background-color: blanchedalmond;
+    background-color: rgb(252, 241, 225);
     padding: 30px;
     grid-column: 2/5;
     ;
 }
 .lateral{
-    background-color: blue;
+    background-color: rgb(205, 205, 248);
     padding: 30px;
     grid-column: 1/2;
     
